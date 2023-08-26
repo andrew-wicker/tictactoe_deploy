@@ -1,44 +1,56 @@
 {
-	"name": "TicTacToe",
-	"version": "2.0.0",
-	"description": "Tic Tac Toe Game",
-	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"author": "Andrew Wicker",
-	"license": "ISC",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/andrew-wicker/tictactoe_deploy"
-	},
-	"dependencies": {
-		"gh-pages": "^6.0.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-scripts": "^5.0.1"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.7.2",
-		"@babel/preset-env": "^7.7.1",
-		"@babel/preset-react": "^7.7.0",
-		"babel-loader": "^8.0.6",
-		"copy-webpack-plugin": "^9.0.1",
-		"eslint": "^7.12.1",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-import-resolver-webpack": "^0.13.0",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-jsx-a11y": "^6.4.1",
-		"eslint-plugin-react": "^7.21.5",
-		"html-loader": "^0.5.5",
-		"html-webpack-plugin": "^5.5.0",
-		"webpack": "^5.62.1",
-		"webpack-cli": "^4.9.1",
-		"webpack-dev-server": "^4.4.0"
-	},
-	"homepage": "https://github.com/andrew-wicker/tictactoe_deploy"
+  "name": "TicTacToe",
+  "version": "2.0.0",
+  "description": "Tic Tac Toe Game",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Andrew Wicker",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-wicker/tictactoe_deploy"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "homepage": "https://github.com/andrew-wicker/tictactoe_deploy",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
