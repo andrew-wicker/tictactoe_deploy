@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import Row from 'src/components/row.jsx';
+import Row from './row.jsx';
 
 export default function Board() {
 	const [boardStates, setBoardStates] = useState([

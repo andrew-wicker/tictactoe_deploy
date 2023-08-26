@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import Board from 'src/components/board.jsx';
+import Board from 'components/board.jsx';
 const App = () => {
 	return (
 		<div className='rootDiv'>
