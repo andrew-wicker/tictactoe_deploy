@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import Box from './box.jsx';
+import Box from './box';
 
 export default function Row(props) {
 	const boxMaker = (boxState, index) => <Box key={index} boxState={boxState} onClick={() => props.onUpdateBoxState(index)} />;
