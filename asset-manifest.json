@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/andrew-wicker/tictactoe_deploy/static/js/main.9009c450.js",
+    "index.html": "/andrew-wicker/tictactoe_deploy/index.html",
+    "main.9009c450.js.map": "/andrew-wicker/tictactoe_deploy/static/js/main.9009c450.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9009c450.js"
+  ]
+}
