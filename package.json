@@ -4,7 +4,7 @@
 	"description": "Tic Tac Toe",
 	"scripts": {
 		"start": "webpack-dev-server --open",
-		"build": "webpack",
+		"build": "webpack --config=./webpack.config.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Andrew Wicker",
